@@ -87,7 +87,7 @@ follow the guidelines listed below.
 
 * Try to make an analytics tool that provides certain metrics about
   your code (e.g local variables per method, number of references to
-                 a given instance variable, etc)
+  a given instance variable, etc)
 
 * Try to make your own emitter that converts s-expressions to Ruby
   or some other language. Dealing with a restricted subset is fine.
