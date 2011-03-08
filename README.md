@@ -8,11 +8,11 @@ could eventually be used for very interesting thing. Ripper is an
 s-expression based Ruby parser that lets you parse Ruby into an
 abstract syntax tree which can then be inspected and manipulated. 
 
->> require "ripper"
-=> true
->> Ripper::SexpBuilder.new("1 + 1").parse
-=> [:program, [:stmts_add, [:stmts_new], 
-     [:binary, [:@int, "1", [1, 0]], :+, [:@int, "1", [1, 4]]]]]
+    >> require "ripper"
+    => true
+    >> Ripper::SexpBuilder.new("1 + 1").parse
+    => [:program, [:stmts_add, [:stmts_new], 
+         [:binary, [:@int, "1", [1, 0]], :+, [:@int, "1", [1, 4]]]]]
 
 Being able to reduce Ruby syntax to raw data in this manner is
 powerful, because it makes it possible to analyze the structure
