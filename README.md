@@ -25,9 +25,9 @@ manipulated, reassembled, and then evaluated.
 Unforunately, neither of the tools I've tried for converting 
 Ripper style s-expressions back to Ruby have worked with much
 success. I have been unable to successfully make use of 
-Ripper2Ruby (https://github.com/svenfuchs/ripper2ruby) for all
+Ripper2Ruby <https://github.com/svenfuchs/ripper2ruby> for all
 but the most trivial cases, and Jim Weirich's Sorcerer project
-( https://github.com/jimweirich/sorcerer ) seems promising but 
+<https://github.com/jimweirich/sorcerer> seems promising but 
 looks to be little more than a short term experiment and 
 leaves many hooks unimplemented.
 
